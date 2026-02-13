@@ -1,10 +1,8 @@
 {
-  "category": "URBAN_LEGEND",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/vanishing-hitchhiker",
     "maintainers": [
       {
@@ -18,337 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "vanishing-hitchhiker",
     "name": "Vanishing Hitchhiker",
-    "aliases": [
-      {
-        "name": "Phantom Hitchhiker",
-        "language": "English",
-        "region": "Global",
-        "meaning": "Variant emphasizing ghostly nature"
-      },
-      {
-        "name": "Ghostly Hitchhiker",
-        "language": "English",
-        "region": "Global",
-        "meaning": "Descriptive variant"
-      },
-      {
-        "name": "Resurrection Mary",
-        "region": "Chicago, USA",
-        "meaning": "Famous specific example"
-      }
-    ],
+    "aliases": [],
     "category": "URBAN_LEGEND",
-    "subcategory": "Ghost",
+    "subcategory": "| Description | Skeptical View |",
     "tags": [
-      "urban-legend",
-      "ghost",
-      "hitchhiker",
-      "automobile",
-      "roadside",
-      "vanishing",
-      "global"
+      "&-meaning"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "A classic urban legend featuring a ghost hitchhiker who is picked up by a driver, converses during the ride, then mysteriously vanishes from the moving or stopped vehicle, often leaving behind an item that is later found on their grave.",
-      "full": "The Vanishing Hitchhiker is one of the most widespread and enduring urban legends worldwide. The archetypal story follows a consistent pattern: a driver picks up a hitchhiker (often a young woman), engages in conversation during which the passenger may provide an address or make predictions, then discovers the passenger has vanished from the vehicle - either while still moving or after reaching the destination. In many versions, the hitchhiker leaves behind an item such as a sweater or scarf. When the driver visits the address provided, they learn the passenger died years ago, often in a car accident at or near the pickup location. The left-behind item is frequently discovered placed on the person's grave. Variations include the prophecy variant, where the hitchhiker warns of impending disaster before vanishing, and anniversary appearances, where the ghost appears on the anniversary of their death. Famous examples include Resurrection Mary in Chicago and numerous local versions worldwide. The legend has been extensively studied by folklorist Jan Harold Brunvand as an archetypal modern ghost story. It represents themes of death, unfinished journeys, helping strangers, and the transition from life to death. The Vanishing Hitchhiker has been a staple of urban legends since the automobile became common, with versions dating back to horse-and-buggy era phantom travelers, showing remarkable adaptability across cultures and time periods."
+      "summary": "The Vanishing Hitchhiker is one of the most widespread and enduring urban legends worldwide.",
+      "full": "The Vanishing Hitchhiker is one of the most widespread and enduring urban legends worldwide. The archetypal story follows a consistent pattern: a driver picks up a hitchhiker (often a young woman), engages in conversation during which the passenger may provide an address or make predictions, then discovers the passenger has vanished from the vehicle. In many versions, the hitchhiker leaves behind an item such as a sweater or scarf. When the driver visits the address provided, they learn the passenger died years ago, often in a car accident at or near the pickup location. The left-behind item is frequently discovered placed on the person's grave. The legend has been extensively studied by folklorist **Jan Harold Brunvand** as an archetypal modern ghost story, representing themes of death, unfinished journeys, helping strangers, and the boundary between life and death."
     },
     "etymology": {
-      "origin": "Descriptive English term for the phenomenon of hitchhikers who vanish",
-      "meaning": "A hitchhiker who mysteriously disappears",
-      "first_use": "Term popularized by folklorist Jan Harold Brunvand in 1981"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "URBAN_LEGEND",
-      "type": "Ghost",
-      "subtype": "Modern Folklore",
-      "variant": "Automobile Era Ghost Story"
+      "type": "| Description | Skeptical View |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "white-lady",
-        "name": "White Lady",
-        "relationship": "overlapping",
-        "description": "Often the vanishing hitchhiker is a woman in white"
-      },
-      {
-        "id": "phantom-ships",
-        "name": "Phantom Ships",
-        "relationship": "similar_archetype",
-        "description": "Similar theme of ghostly travelers in transportation"
-      }
-    ]
+    "related_phenomena": []
   },
-
-  "story_pattern": {
-    "archetypal_narrative": {
-      "setup": "Driver is traveling, often at night, on a road or highway",
-      "encounter": "Sees hitchhiker at roadside, often near specific location",
-      "pickup": "Stops and offers ride, hitchhiker accepts and gets in vehicle",
-      "journey": "Conversation occurs, hitchhiker may provide address or make statements",
-      "vanishing": "Passenger disappears from vehicle (either while moving or at destination)",
-      "discovery": "Driver realizes passenger is gone, often finds item left behind",
-      "revelation": "Driver goes to provided address or investigates",
-      "conclusion": "Learns hitchhiker died years ago, often in accident at pickup spot",
-      "evidence": "Item left behind is found on grave or returned to family"
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "common_elements": [
-      {
-        "element": "Young female hitchhiker",
-        "frequency": "very_common",
-        "notes": "Most versions feature young woman, though male variants exist"
-      },
-      {
-        "element": "Specific location",
-        "frequency": "always",
-        "notes": "Pickup location is consistent, often accident site"
-      },
-      {
-        "element": "Address provided",
-        "frequency": "common",
-        "notes": "Hitchhiker gives destination or home address"
-      },
-      {
-        "element": "Item left behind",
-        "frequency": "very_common",
-        "notes": "Sweater, scarf, or other item found after vanishing"
-      },
-      {
-        "element": "Death years ago",
-        "frequency": "always",
-        "notes": "Hitchhiker died in past, often decades before"
-      },
-      {
-        "element": "Car accident death",
-        "frequency": "very_common",
-        "notes": "Death often occurred in car accident at pickup location"
-      },
-      {
-        "element": "Item on grave",
-        "frequency": "common",
-        "notes": "Left item discovered placed on hitchhiker's grave"
-      }
-    ]
-  },
-
-  "variations": {
-    "prophecy_variant": {
-      "description": "Hitchhiker warns of impending disaster before vanishing",
-      "common_prophecies": [
-        "Prediction of war or catastrophe",
-        "Religious warnings or messages",
-        "Personal warnings to driver"
-      ],
-      "cultural_context": "Often reflects contemporary anxieties"
-    },
-    "anniversary_appearance": {
-      "description": "Ghost appears on anniversary of death",
-      "pattern": "Same date each year, often at same location and time"
-    },
-    "destination_variant": {
-      "description": "Ghost is trying to reach specific destination",
-      "common_destinations": [
-        "Home (never made it home when alive)",
-        "Cemetery (trying to return to grave)",
-        "Hospital or other significant location"
-      ]
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
-  "famous_examples": [
-    {
-      "name": "Resurrection Mary",
-      "location": "Archer Avenue, Chicago, Illinois, USA",
-      "description": "Most famous American example. Young woman in white party dress appears near Resurrection Cemetery, accepts rides, vanishes near cemetery. Said to have died in car accident after leaving dance hall in 1930s.",
-      "first_reported": "1930s",
-      "status": "Ongoing reports",
-      "distinctive_features": "White party dress, blonde hair, asks to be let out at cemetery"
-    },
-    {
-      "name": "Blue Bell Hill Ghost",
-      "location": "Blue Bell Hill, Kent, England",
-      "description": "Young woman in white appears on road where she died in accident on way to wedding. Multiple witness accounts over decades.",
-      "first_reported": "1960s",
-      "status": "Ongoing reports",
-      "distinctive_features": "Bride or bridesmaid dress, wedding connection"
-    },
-    {
-      "name": "Highway 365 Hitchhiker",
-      "location": "Highway 365, Arkansas, USA",
-      "description": "Woman in 1950s clothing, gives address, vanishes, revealed to have died in 1950s accident",
-      "status": "Regional legend"
-    }
-  ],
-
   "distribution": {
     "range": {
-      "description": "Worldwide phenomenon with reports from every continent with automobile culture. Extremely common urban legend with local variants in most countries.",
-      "continents": ["All inhabited continents"],
-      "countries": ["Global - reported in most countries with automobile culture"],
-      "regions": [
-        "United States (extensive documentation)",
-        "United Kingdom (multiple locations)",
-        "Europe (various countries)",
-        "Asia (modern variants)",
-        "Australia",
-        "Latin America"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Early 1900s",
+        "date": "Unknown",
         "circa": true,
-        "source": "Automobile era adaptation of older phantom traveler stories"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1930s-1950s",
-          "description": "Classic era of vanishing hitchhiker stories"
-        },
-        {
-          "period": "1960s-1980s",
-          "description": "Peak of urban legend dissemination"
-        },
-        {
-          "period": "Present",
-          "description": "Continues as active urban legend, adapted to modern era"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient phantom traveler stories adapted to automobile age. Precursors include ghostly travelers on horseback, phantom passengers in carriages.",
-      "earliest_accounts": "Stories of phantom travelers date back centuries; automobile variant emerges in early 20th century.",
-      "folklore_connections": "Connected to broader traditions of helpful ghosts, restless spirits, and unfinished journeys."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Ancient-19th century",
-        "event": "Phantom traveler stories",
-        "significance": "Pre-automobile versions involving horses, carriages, ships",
-        "source": "Historical folklore"
-      },
-      {
-        "date": "1920s-1930s",
-        "event": "Automobile era adaptation",
-        "significance": "Legend adapts to car culture, modern form emerges",
-        "source": "Early 20th century urban legends"
-      },
-      {
-        "date": "1942",
-        "event": "First academic documentation",
-        "significance": "Beardsley and Hankey publish analysis in California Folklore Quarterly",
-        "source": "Academic folklore studies"
-      },
-      {
-        "date": "1981",
-        "event": "Brunvand's 'The Vanishing Hitchhiker' published",
-        "significance": "Comprehensive study brings legend to wide audience, establishes it as archetypal urban legend",
-        "source": "Jan Harold Brunvand's research"
-      },
-      {
-        "date": "1990s-present",
-        "event": "Internet era dissemination",
-        "significance": "Legend spreads rapidly online, new variants emerge",
-        "source": "Contemporary folklore"
-      }
-    ],
-    "modern_era": "The Vanishing Hitchhiker remains one of the most recognized urban legends worldwide. It continues to generate new reports and local variants, with the internet facilitating rapid spread and comparison of versions across cultures."
+    "timeline": []
   },
-
-  "cultural_analysis": {
-    "folklorist_perspectives": {
-      "brunvand_analysis": "Jan Harold Brunvand identified the Vanishing Hitchhiker as an archetypal urban legend, exemplifying how modern folklore adapts to technological and cultural changes while maintaining core narrative elements.",
-      "meaning": "Represents anxieties about strangers, death, helping others, and the boundary between life and death"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "symbolism": [
-      "Unfinished journey - interrupted life",
-      "Helping strangers - moral test",
-      "Death in motion - automobile danger",
-      "Return to significant location",
-      "Communication across death boundary"
-    ],
-    "psychological_theories": [
-      "Projection of guilt about not helping others",
-      "Processing automobile accident trauma",
-      "Fear of strangers balanced with moral imperative to help",
-      "Dealing with sudden, violent death"
-    ],
-    "sociological_interpretation": "Legend reflects automobile culture, roadside danger awareness, decline of hitchhiking practice, and changing social norms about helping strangers."
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Roadside ghost stories",
-        "Warning tales about specific locations",
-        "Moral lessons about helping others",
-        "Cautionary tales about hitchhiking"
-      ],
-      "storytelling_context": "Often told as true story that happened to 'a friend of a friend' (FOAF tale)",
-      "beliefs": "While generally recognized as legend, specific locations maintain active belief in local ghost"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Brunvand, J.H. (1981). The Vanishing Hitchhiker",
-        "Countless horror anthologies",
-        "Urban legend collections"
-      ],
-      "film_tv": [
-        "\"The Twilight Zone\" episodes featuring variant",
-        "Numerous horror films using motif",
-        "\"Urban Legend\" (1998 film)",
-        "Documentary series on urban legends"
-      ],
-      "music": [
-        "\"Laurie\" by Dickey Lee (1965) - song based on legend",
-        "Various other musical adaptations"
-      ],
-      "other": [
-        "Ghost tour staples at famous locations",
-        "Internet creepypasta adaptations",
-        "Podcast episodes"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "brunvand-1981",
-      "type": "book",
-      "title": "The Vanishing Hitchhiker: American Urban Legends and Their Meanings",
-      "authors": ["Jan Harold Brunvand"],
-      "publication": "W. W. Norton & Company",
-      "date": "1981",
-      "isbn": "978-0393951691"
-    },
-    {
-      "id": "beardsley-hankey-1942",
-      "type": "article",
-      "title": "The Vanishing Hitchhiker",
-      "authors": ["Richard K. Beardsley", "Rosalie Hankey"],
-      "publication": "California Folklore Quarterly",
-      "date": "1942",
-      "volume": "1",
-      "pages": "303-335"
-    },
-    {
-      "id": "guiley-2007",
-      "type": "book",
-      "title": "The Encyclopedia of Ghosts and Spirits",
-      "authors": ["Rosemary Ellen Guiley"],
-      "publication": "Facts on File",
-      "date": "2007",
-      "isbn": "978-0816073047"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
