@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/vanishing-hitchhiker",
     "maintainers": [
       {
@@ -16,71 +16,140 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "vanishing-hitchhiker",
     "name": "Vanishing Hitchhiker",
-    "aliases": [],
+    "aliases": [
+      { "name": "Phantom Hitchhiker", "language": "English", "meaning": "Ghost or apparition encountered hitchhiking on a road" },
+      { "name": "Ghost Hitchhiker", "language": "English", "meaning": "Common descriptive term" },
+      { "name": "Resurrection Mary", "region": "Chicago, Illinois, USA", "meaning": "Most famous named American vanishing hitchhiker — a young blonde woman reportedly seen near Resurrection Cemetery, Justice, Illinois" }
+    ],
     "category": "URBAN_LEGEND",
-    "subcategory": "| Description | Skeptical View |",
+    "subcategory": "Ghost story / contemporary legend",
     "tags": [
-      "&-meaning"
+      "urban-legend",
+      "ghost",
+      "hitchhiker",
+      "contemporary-legend",
+      "folklore",
+      "worldwide",
+      "road",
+      "apparition",
+      "jan-harold-brunvand"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Vanishing Hitchhiker is one of the most widespread and enduring urban legends worldwide.",
-      "full": "The Vanishing Hitchhiker is one of the most widespread and enduring urban legends worldwide. The archetypal story follows a consistent pattern: a driver picks up a hitchhiker (often a young woman), engages in conversation during which the passenger may provide an address or make predictions, then discovers the passenger has vanished from the vehicle. In many versions, the hitchhiker leaves behind an item such as a sweater or scarf. When the driver visits the address provided, they learn the passenger died years ago, often in a car accident at or near the pickup location. The left-behind item is frequently discovered placed on the person's grave. The legend has been extensively studied by folklorist **Jan Harold Brunvand** as an archetypal modern ghost story, representing themes of death, unfinished journeys, helping strangers, and the boundary between life and death."
+      "summary": "The Vanishing Hitchhiker is one of the world's most widespread urban legends, in which a driver picks up a hitchhiker who subsequently disappears from the moving vehicle; the driver later learns the hitchhiker died years earlier, often at or near the pickup location.",
+      "full": "The Vanishing Hitchhiker is among the most widely distributed and analytically studied urban legends in folklore scholarship. The archetypal narrative: a driver picks up a hitchhiker (typically a young woman) who engages in conversation, may provide a destination address or make a prediction, and then vanishes from the vehicle — often without warning and with the car door still closed. In many versions, the hitchhiker leaves behind a physical object (a sweater, a scarf, a jacket). The driver visits the address given and learns that the hitchhiker died years earlier, often in a car accident at or near the pickup location. The left-behind object is frequently found placed on the hitchhiker's grave. The legend has been documented across the United States, England, Ethiopia, Korea, France, South Africa, Tsarist Russia, Sweden (a 400-year-old Swedish manuscript describes an essentially identical encounter in 1602), and among many American ethnic and regional communities. Folklore scholar Jan Harold Brunvand conducted the most comprehensive analysis, identifying four primary variants (including prophecy-giving old women, divine figures in disguise, and gender-reversed versions) and tracing the legend's oral transmission. Beardsley and Hankey (1942–43) collected 79 American accounts, finding that the hitchhiker is female in the majority of cases. The legend reflects perennial themes of death, unfinished journeys, charitable acts rewarded with supernatural revelation, and the permeable boundary between the living and the dead."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The term 'vanishing hitchhiker' was popularized by folklore scholar Jan Harold Brunvand in his 1981 book The Vanishing Hitchhiker: American Urban Legends and Their Meanings.",
+      "meaning": "Descriptive: a hitchhiker who disappears without explanation during or after a car ride",
+      "first_use": "The phenomenon itself is documented as early as the 1870s in American oral tradition (per Brunvand's research); the scholarly term was coined in 1981"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "URBAN_LEGEND",
-      "type": "| Description | Skeptical View |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Contemporary legend / ghost story",
+      "subtype": "Vehicular ghost encounter",
+      "variant": "Worldwide; multiple regional variants"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ghost-hitchhiker-resurrection-mary", "name": "Resurrection Mary", "relationship": "regional_variant", "description": "The most famous named American vanishing hitchhiker; a young blonde woman reportedly seen near Resurrection Cemetery in Justice, Illinois, since the 1930s" },
+      { "id": "phantom-vehicles", "name": "Phantom Vehicles", "relationship": "related", "description": "Related category of ghostly road phenomena involving spectral cars, trucks, or motorcycles" },
+      { "id": "pele-hitchhiker", "name": "Pele Hitchhiker (Hawaii)", "relationship": "regional_variant", "description": "Hawaiian variant in which the goddess Pele appears as a hitchhiker to test drivers; a divine disguise variant of the legend" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Young female appearance (most common)", "description": "In the majority of collected accounts, the hitchhiker appears as a young woman, often dressed in formal or outdated clothing appropriate to the era of her death", "frequency": "common" },
+        { "feature": "Normal human appearance", "description": "The hitchhiker appears entirely normal and human during the encounter; no supernatural signs are visible until the disappearance", "frequency": "always" },
+        { "feature": "Outdated clothing", "description": "In many versions, witnesses later realize the hitchhiker's clothing was styled for a different era — the era of her death", "frequency": "occasional" }
+      ],
+      "morphology": "The vanishing hitchhiker appears entirely human and ordinary during the encounter. The supernatural revelation occurs only retrospectively, when the driver learns the person died years earlier."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Physical presence in vehicles", "description": "The apparition can apparently occupy physical space in a vehicle — sitting, conversing, being seen by the driver — without any apparent supernatural quality until the disappearance", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Disappearance", "description": "Vanishes without explanation from the moving or stopped vehicle, typically without the car door opening", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Physical object interaction", "description": "In many versions, leaves behind a physical object (clothing) that is later found on a grave, providing apparent physical evidence of the encounter", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Prophecy", "description": "In the 'prophecy' variant (particularly around 1933 Chicago), the hitchhiker predicts disasters or significant events before disappearing", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["roads", "highways", "near cemeteries", "near the location of the hitchhiker's death"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Typically appears on a road near the location of the hitchhiker's death",
+        "Provides the address of a former home or the location of their death",
+        "Conversation is normal and unremarkable during the ride",
+        "Disappearance is the only supernatural event of the encounter",
+        "The left-behind object (in versions where one appears) provides the physical link to the next revelatory scene"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Worldwide — one of the most geographically widespread urban legends documented by folklorists. Versions have been recorded across the Americas, Europe, Africa, Asia, and among diaspora communities worldwide.",
+      "continents": ["North America", "Europe", "Africa", "Asia", "South America"],
+      "countries": ["United States", "United Kingdom", "Sweden", "France", "South Africa", "Ethiopia", "Korea", "Russia", "South Korea"],
+      "regions": [
+        "Chicago area (Resurrection Mary — most famous American version)",
+        "Midwest United States",
+        "Southern United States",
+        "United Kingdom",
+        "Scandinavian (early Swedish manuscript)",
+        "Korea",
+        "Sub-Saharan Africa"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Resurrection Cemetery, Justice, Illinois",
+        "location": {
+          "description": "Resurrection Cemetery on Archer Avenue, Justice, Illinois; associated with the 'Resurrection Mary' vanishing hitchhiker tradition",
+          "country": "United States",
+          "region": "Illinois",
+          "coordinates": { "latitude": 41.7358, "longitude": -87.8286 }
+        },
+        "notes": "Resurrection Mary is the most famous named American vanishing hitchhiker; reported since the 1930s; numerous witness accounts from Archer Avenue"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1602-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "A 400-year-old Swedish manuscript by priest Joen Petri Klint describes an encounter in Västergötland in 1602 (a Candlemas market maid who makes predictions and disappears) that matches the vanishing hitchhiker pattern; cited as the earliest documented version"
+      },
+      "peak_activity_periods": [
+        { "period": "1870s–present", "description": "American oral tradition of the vanishing hitchhiker documented from at least the 1870s (per Brunvand's research); the automobile-specific version became dominant in the 20th century" },
+        { "period": "1930s–1950s", "description": "Peak of Resurrection Mary sightings in Chicago; the most prolific period of documented American vanishing hitchhiker reports" }
+      ],
+      "seasonal_patterns": "No seasonal pattern; reports distributed throughout the year. Some versions are linked to specific dates (e.g., the anniversary of the hitchhiker's death)."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The vanishing hitchhiker tradition is older than the automobile. Pre-automobile versions involve horse-drawn vehicles or simply travelers on roads meeting a companion who vanishes. The 1602 Swedish manuscript case predates cars by three centuries. The automobile-specific form became dominant in 20th-century American oral tradition, reflecting cultural anxieties around highway travel, strangers, and road accidents.",
+      "earliest_accounts": "The earliest documented version is the 1602 Swedish manuscript by priest Joen Petri Klint describing a Candlemas market encounter in Västergötland where a maid makes prophecies and disappears. Brunvand traced American versions back to the 1870s. The Resurrection Mary tradition in Chicago dates to the 1930s.",
+      "folklore_connections": "The vanishing hitchhiker belongs to the broader category of 'contemporary legends' or 'urban legends' — modern folklore transmitted orally and through media. It connects to ghost story traditions about the unquiet dead, divine encounter stories (where a stranger reveals themselves as a deity), and cautionary road travel narratives."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1602-01-01", "event": "Swedish priest Joen Petri Klint records an encounter in Västergötland: a priest and two farmers meet a maid at a Candlemas market who makes prophetic predictions and disappears", "significance": "Earliest known documented version of the vanishing hitchhiker legend pattern", "source": "Manuscript by Joen Petri Klint (c. 1602); cited in Wikipedia article on The Vanishing Hitchhiker" },
+      { "date": "1942-01-01", "event": "Beardsley and Hankey publish the first systematic American collection of vanishing hitchhiker accounts; collect 79 cases and identify four distinct variant types", "significance": "First major scholarly analysis of the American vanishing hitchhiker tradition", "source": "Beardsley, R.K. & Hankey, R. (1942-43), California Folklore Quarterly" },
+      { "date": "1981-01-01", "event": "Jan Harold Brunvand publishes The Vanishing Hitchhiker: American Urban Legends and Their Meanings; the book brings the legend to wide public attention and establishes 'urban legend' as a scholarly category", "significance": "Seminal work of folklore scholarship; defined the 'vanishing hitchhiker' as a scholarly category and established the academic study of contemporary legends", "source": "Brunvand, J.H. (1981), The Vanishing Hitchhiker, W.W. Norton" }
+    ],
+    "modern_era": "The vanishing hitchhiker continues to be reported globally, adapted to new contexts (including internet and social media versions). It remains one of the most frequently cited examples in folklore scholarship on contemporary legends. Skeptical investigators have found no documented cases that withstand scrutiny, but the legend's persistence across cultures and centuries demonstrates its deep resonance with universal fears and hopes about death and the afterlife."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +160,124 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "vh-beardsley-hankey-1942",
+        "type": "article",
+        "name": "The Vanishing Hitchhiker (Beardsley & Hankey, 1942–43)",
+        "date": "1942-01-01",
+        "description": "First systematic scholarly collection and analysis of the American vanishing hitchhiker legend; compiled 79 accounts and identified four distinct variant types.",
+        "status": "verified",
+        "analysis": "Foundational folklore scholarship; established the academic framework for studying the legend.",
+        "source": "Beardsley, R.K. & Hankey, R. (1942-43), California Folklore Quarterly"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genuine ghost encounters",
+        "description": "Some reporters maintain they genuinely encountered a ghost — the spirit of a person who died at or near the location, returning to complete an unfinished journey or deliver a message. The physical object left behind (in some versions) is cited as evidence of genuine materialization.",
+        "proponents": ["Various paranormal investigators", "Individual witnesses"],
+        "evidence_cited": ["Consistent pattern across unrelated witnesses", "Physical objects reportedly left behind", "Witness access to information (the hitchhiker's address, name) that they had no other means of knowing"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folklore transmission and fabrication",
+        "description": "The standard scholarly explanation: the vanishing hitchhiker is a legend — a story transmitted orally that is believed to be true by tellers but is not based on verifiable events. Its consistency across cultures reflects the universal appeal of the underlying themes (helpful stranger, death, unfinished business) rather than a real phenomenon. Investigator Michael Goss found that many reported cases based on folklore and hearsay, with no verifiable primary witness.",
+        "proponents": ["Jan Harold Brunvand", "Michael Goss", "Joe Nickell"],
+        "evidence_cited": ["No documented case has withstood investigative scrutiny", "Legend has been told in essentially identical form across cultures with no cross-cultural contact", "Pattern of adaptation to local roads, local cemeteries, and local vehicle types", "Beardsley & Hankey found no verifiable original cases in their 79-account sample"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American contemporary legend tradition",
+        "British ghost road tradition",
+        "Korean ghost hitchhiker (귀신 히치하이커) tradition",
+        "Hawaiian Pele hitchhiker divine encounter tradition",
+        "Swedish prophetic encounter tradition (1602 manuscript)"
+      ],
+      "stories": [
+        "Resurrection Mary (Chicago, Illinois): blonde woman in white dress seen on Archer Avenue since the 1930s; associated with Resurrection Cemetery",
+        "The 1602 Swedish Candlemas maid who prophesied events and disappeared",
+        "The prophecy variant: elderly woman in a car predicts disasters around 1933 Chicago",
+        "The divine encounter variant: Hawaiian goddess Pele hitchhiking to test drivers"
+      ],
+      "beliefs": "The vanishing hitchhiker legend reflects widespread beliefs about ghosts who are unable to rest because of unfinished business, violent death, or incomplete journeys. It also reflects moral themes: the charitable driver is rewarded (or tested) by the supernatural encounter, and the revelation of the hitchhiker's death confers a kind of awe and validation on the helpful act."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Vanishing Hitchhiker: American Urban Legends and Their Meanings — Jan Harold Brunvand (1981)",
+        "The Evidence for Phantom Hitch-Hikers — Michael Goss (1984)",
+        "Scary Stories to Tell in the Dark — Alvin Schwartz (1981): includes a vanishing hitchhiker variant"
+      ],
+      "film_tv": [
+        "Numerous anthology horror films and television episodes feature the legend",
+        "Supernatural (TV series, 2005–2020) — features a vanishing hitchhiker episode",
+        "Various Korean horror films draw on the local ghost hitchhiker tradition"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Resurrection Mary tours in the Chicago area",
+        "The legend is one of the most commonly told campfire ghost stories in American tradition"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jan Harold Brunvand", "affiliation": "University of Utah (folklore)", "contribution": "The Vanishing Hitchhiker (1981): the definitive scholarly treatment; coined 'urban legend' as a category; traced the legend's history and variants", "period": "1970s–2000s" },
+      { "name": "Richard K. Beardsley and Rosalie Hankey", "affiliation": "University of California", "contribution": "First systematic American collection of vanishing hitchhiker accounts (1942–43); identified four variant types in 79 collected cases", "period": "1942–1943" },
+      { "name": "Michael Goss", "affiliation": "Independent researcher", "contribution": "The Evidence for Phantom Hitch-Hikers (1984): skeptical investigation finding no verifiable primary witnesses", "period": "1984" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The vanishing hitchhiker is a standard reference case in contemporary legend and folklore studies. It appears in virtually every introductory course on urban folklore and is studied as a paradigmatic example of legend transmission and belief."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "brunvand-1981",
+      "type": "book",
+      "title": "The Vanishing Hitchhiker: American Urban Legends and Their Meanings",
+      "authors": ["Jan Harold Brunvand"],
+      "publication": "W.W. Norton",
+      "date": "1981"
+    },
+    {
+      "id": "beardsley-hankey-1942",
+      "type": "article",
+      "title": "The Vanishing Hitchhiker",
+      "authors": ["Richard K. Beardsley", "Rosalie Hankey"],
+      "publication": "California Folklore Quarterly",
+      "date": "1942"
+    },
+    {
+      "id": "goss-1984",
+      "type": "book",
+      "title": "The Evidence for Phantom Hitch-Hikers",
+      "authors": ["Michael Goss"],
+      "publication": "Aquarian Press",
+      "date": "1984"
+    },
+    {
+      "id": "wikipedia-vanishing-hitchhiker",
+      "type": "website",
+      "title": "The Vanishing Hitchhiker — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Vanishing_Hitchhiker",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
